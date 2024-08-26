@@ -1,0 +1,31 @@
+:root {
+    --unused: #9248b0;
+    --secondary: #9b8ba1;
+    --primary: #9b8ba1; 
+    --titlecolor: white; 
+    --navlinks: white;
+    --textcolor: white;
+    --navtitlefont: 'Martian Mono', sans-serif;
+    --navlinksfont: 'Red Hat Mono', sans-serif;
+}
+
+body {
+    font-family: var(--navtitlefont);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: var(--titlecolor);
+    font-family: var(--navtitlefont);
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
